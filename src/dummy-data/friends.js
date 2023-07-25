@@ -51,4 +51,36 @@ export default [
       { id: uuid(), name: 'Sharkie', type: 'Great White Shark' },
     ]
   },
+  {
+    id: uuid(),
+    name: 'Alaina',
+    age: 21,
+    hobbies: [
+      'lifting',
+      'bird watching',
+      'hiking',
+      'coding',
+    ],
+    married: true,
+    pets: [
+      { id: uuid(), name: 'louis', type: 'pug' },
+      { id: uuid(), name: 'Sharkie', type: 'Great White Shark' },
+    ]
+  },
+  {
+    id: uuid(),
+    name: 'Cole',
+    age: 21,
+    hobbies: [
+      'lifting',
+      'bird watching',
+      'hiking',
+      'soccer',
+    ],
+    married: true,
+    pets: [
+      { id: uuid(), name: 'natasha', type: 'weiner-dog' },
+      { id: uuid(), name: 'weiner-dog #2', type: 'weiner-dog' },
+    ]
+  },
 ]
